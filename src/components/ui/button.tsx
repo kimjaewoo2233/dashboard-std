@@ -20,7 +20,7 @@ const buttonVariants = cva(
 )
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement>, VariantProps<typeof buttonVariants> {
-    children: React.ReactNode;
+    children?: React.ReactNode;
 }
 
 export function Button({ children, className, variant, size, ...props}: ButtonProps) {
