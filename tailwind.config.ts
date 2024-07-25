@@ -21,7 +21,7 @@ const config: Config = {
           '100%': { transform: 'translateX(100%)' },
         }
       },
-      animation: { shimmer: 'shimmer 2s 1' },
+      animation: { shimmer: 'shimmer 4s 1' },
       backgroundImage: {
         'gradient-shimmer': 'linear-gradient(to right, transparent, rgba(255, 255, 255, 0.6), transparent)'
       }
